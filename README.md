@@ -1,2 +1,2 @@
-# timx
-https://timx.dev
+# personal website
+
