@@ -1,0 +1,41 @@
+body.light-mode {
+  background-color: #111;
+  color: #eee;
+}
+body.light-mode p {
+  background-color: #111;
+  color: #eee;
+}
+body.light-mode h1 {
+  background-color: #111;
+  color: #eee;
+}
+body.light-mode div {
+  background-color: #111;
+  color: #eee;
+}
+body.light-mode a {
+  background-color: #111;
+  color: #eee;
+}
+body.light-mode button {
+  background-color: #eee;
+  color: #111;
+}
+
+body.dark-mode {
+  background-color: #eee;
+  color: #111;
+}
+body.dark-mode p {
+  color: #111;
+}
+body.dark-mode a {
+  color: #111;
+}
+body.dark-mode button {
+  background-color: #111;
+  color: #eee;
+}
+
+/*# sourceMappingURL=styles.css.map */
