@@ -21,6 +21,7 @@ body.light-mode a {
 body.light-mode button {
   background-color: #eee;
   color: #111;
+  transition-duration: 4s;
 }
 
 body.dark-mode {
@@ -36,6 +37,7 @@ body.dark-mode a {
 body.dark-mode button {
   background-color: #111;
   color: #eee;
+  transition-duration: 4s;
 }
 
 /*# sourceMappingURL=styles.css.map */
