@@ -113,7 +113,7 @@
     "links": {
       "blink": false,
       "color": {
-        "value": "#ffffff"
+        "value": "#d6e2ff"
       },
       "consent": false,
       "distance": 150,
@@ -170,11 +170,11 @@
     "number": {
       "density": {
         "enable": true,
-        "area": 800,
-        "factor": 1000
+        "area": 1200,
+        "factor": 1600
       },
       "limit": 0,
-      "value": 60
+      "value": 25
     },
     "opacity": {
       "animation": {
