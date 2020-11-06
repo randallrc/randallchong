@@ -1,9 +1,10 @@
+tsParticles.loadJSON("tsparticles", "particles.json");
+
 function toggleDarkLight() {
-    var body = document.getElementById("body");
-    var currentClass = body.className;
-    //change css
-    body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-    //change emoji
-    body.className == "dark-mode" ?  document.getElementById("darklightbtn").innerHTML = "🌙" : document.getElementById("darklightbtn").innerHTML = "☀️";
+    const body = document.getElementById("body");
+    const currentClass = body.className;
+    //set class to current
+    body.className = currentClass == "light-mode" ? "dark-mode" : "light-mode";
+    //change emoji and particles
+    body.className == "light-mode" ? (document.getElementById("darklightbtn").innerHTML = "🌙", tsParticles.loadJSON("tsparticles", "particles.json")) : (document.getElementById("darklightbtn").innerHTML = "☀️", tsParticles.loadJSON("tsparticles", "darkparticles.json"));
   }
-  
